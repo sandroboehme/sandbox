@@ -23,9 +23,9 @@
     </dependency>
   </dependencies>
    <scm>
-	<connection>scm:git@github.com:sandroboehme/sandbox.git</connection>
-	<url>scm:git@github.com:sandroboehme/sandbox.git</url>
-	<developerConnection>scm:git@github.com:sandroboehme/sandbox.git</developerConnection>
+	<connection>scm:https://sandroboehme@github.com/sandroboehme/sandbox.git</connection>
+	<url>scm:https://sandroboehme@github.com/sandroboehme/sandbox.git</url>
+	<developerConnection>scm:https://sandroboehme@github.com/sandroboehme/sandbox.git</developerConnection>
   </scm>
   <build>
     <plugins>

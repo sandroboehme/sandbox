@@ -3,7 +3,7 @@
 
   <groupId>testgroup</groupId>
   <artifactId>testproject</artifactId>
-  <version>1.7-SNAPSHOT</version>
+  <version>1.7</version>
   <packaging>jar</packaging>
 
   <name>testproject</name>

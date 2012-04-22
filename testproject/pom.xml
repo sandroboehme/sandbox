@@ -23,7 +23,7 @@
   </dependencies>
    <scm>
 	<connection>scm:git:git://git@github.com:sandroboehme/sandbox.git</connection>
-	<developerConnection>scm:git:git://git@github.com:sandroboehme/sandbox.git</developerConnection>
+	<developerConnection>scm:https://sandroboehme@github.com/sandroboehme/sandbox.git</developerConnection>
 	<url>https://github.com/sandroboehme/sandbox</url>
   </scm>
   <build>

@@ -2,3 +2,7 @@
 .project
 .settings/
 target/
+pom.xml.releaseBackup
+release.properties
+pom.xml.tag
+pom.xml.next

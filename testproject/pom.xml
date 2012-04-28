@@ -36,6 +36,7 @@
 						<id>release-plugin</id>
 						<goals>
 							<goal>branch</goal>
+							<goal>deploy</goal>
 						</goals>
 					</execution>
 				</executions>

@@ -38,6 +38,7 @@
 					<execution>
 						<id>release-plugin</id>
 						<goals>
+							<goal>prepare</goal>
 							<goal>branch</goal>
 						</goals>
 					</execution>

@@ -3,7 +3,7 @@
 
   <groupId>testgroup</groupId>
   <artifactId>testproject</artifactId>
-  <version>1.10-SNAPSHOT</version>
+  <version>1.11-SNAPSHOT</version>
   <packaging>bundle</packaging>
 
   <name>testproject</name>
@@ -31,6 +31,14 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>release-plugin</id>
+						<goals>
+							<goal>branch</goal>
+						</goals>
+					</execution>
+				</executions>
         <version>2.2.2</version>
       </plugin>
 			<plugin>
@@ -39,9 +47,6 @@
 				<extensions>true</extensions>
 				<configuration>
 					<remoteOBR>www.jcrbrowser.org</remoteOBR>
-<!--
-					<prefixURL>dav:http://www.jcrbrowser.org/sling/obr-test</prefixURL>
--->
 				</configuration>
 				<version>2.0.1</version>
 			</plugin>

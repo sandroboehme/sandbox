@@ -39,7 +39,6 @@
 						<id>release-plugin</id>
 						<goals>
 							<goal>branch</goal>
-							<goal>install</goal>
 							<goal>bundle:deploy</goal>
 						</goals>
 					</execution>

@@ -3,8 +3,8 @@
 
   <groupId>testgroup</groupId>
   <artifactId>testproject</artifactId>
-  <version>1.8-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <version>1.9-SNAPSHOT</version>
+  <packaging>bundle</packaging>
 
   <name>testproject</name>
   <url>http://maven.apache.org</url>
@@ -33,6 +33,32 @@
         <artifactId>maven-release-plugin</artifactId>
         <version>2.2.2</version>
       </plugin>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<extensions>true</extensions>
+				<configuration>
+					<remoteOBR>www.jcrbrowser.org</remoteOBR>
+<!--
+					<prefixURL>dav:http://www.jcrbrowser.org/sling/obr-test</prefixURL>
+-->
+				</configuration>
+				<version>2.0.1</version>
+			</plugin>
     </plugins>
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-webdav-jackrabbit</artifactId>
+				<version>2.2</version>
+			</extension>
+		</extensions>
   </build>
+
+	<distributionManagement>
+		<repository>
+			<id>www.jcrbrowser.org</id>
+			<url>dav:http://www.jcrbrowser.org/sling/obr-test</url>
+		</repository>
+	</distributionManagement>
 </project>

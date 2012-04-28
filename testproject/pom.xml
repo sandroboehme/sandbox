@@ -3,7 +3,7 @@
 
   <groupId>testgroup</groupId>
   <artifactId>testproject</artifactId>
-  <version>1.13-SNAPSHOT</version>
+  <version>1.13</version>
   <packaging>bundle</packaging>
 
   <name>testproject</name>
